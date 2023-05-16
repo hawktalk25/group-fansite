@@ -1,0 +1,30 @@
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: fantasy;
+  color: green;
+}
+
+footer {
+  text-align: center;
+  color: purple;
+  margin-top: 1em;
+}
+
+#navlinks {
+  padding: 0;
+}
+
+#navlinks li {
+  display: inline;
+  margin: 14px;
+}
+
+.short-summary {
+  border: 1px solid black;
+  color: blue;
+  padding: 5em;
+  text-align: center;
+}
