@@ -4,12 +4,12 @@ header h1, h2 {
     text-shadow: 2px 2px 2px yellow
     }
 
-.topnav {
+/* .topnav {
     background-color: transparent;
     overflow: hidden;
-}
+} */
 
-.topnav a {
+/* .topnav a {
 float: left;
 color: brown;
 text-align: center;
@@ -17,21 +17,21 @@ padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
 font-weight: bold;
-}
+} */
 
-.topnav a:hover {
+/* .topnav a:hover {
 background-color:rgb(235, 222, 222);
 color: black;
-}
+} */
 
 .topnav a.active {
 background-color: #c21792;
 color: white;
 }
 
-.topnav-right {
+/* .topnav-right {
 float: right;
-}
+} */
 
 h1 {
     text-align: center;
