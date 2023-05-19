@@ -50,7 +50,7 @@ h1 {
     color: rgba(217, 199, 199, 0.01);
     background-image: url(https://hips.hearstapps.com/hmg-prod/images/rainbow-foods-1520617116.jpg);
     background-repeat: repeat;
-    background-clip:text;
+    -webkit-background-clip:text;
     animation: animate 15s ease-in-out infinite;
     text-align: center;
     text-transform: uppercase;

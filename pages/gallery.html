@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <title>Gallery</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="common stylesheet" href="./style/style.css">
+  <link rel="gallery stylesheet" href="./style/gallery.css">
 </head>
+
 <body>
-  
+  <header>
+    <nav class="topnav">
+      <a href="index.html">Sugarland</a>
+      <a href="facts.html">Sweet Truths</a>
+      <a class="active" href="../pages/gallery.html">Edible Works of Art</a>
+    </nav>
+    <h1 class="heading-text">Dessert Gallery
+    </h1>
+  </header>
+
+  <main> 
+    <div class="container">
+      <ul class="image-gallery">
+        <li>
+          <img src="../images/chocolate_lava_cake.jpeg" alt="chocolate lava cake">
+          <div class="overlay"><span>Also known as molten chocolate cake, chocolate lava cake consists of a chocolate cake with a liquid center that slowly spills out when cut into. It can be enjoyed by itself or with fresh fruit. It's Anh's favorite dessert.</span></div>
+        </li>
+        <li>
+          <img src="../images/banana_pudding.jpeg" alt="banana pudding">
+          <div class="overlay"><span>Banana pudding consists of layers of sweet vanilla-flavored custard, vanilla wafers and/or ladyfingers and sliced fresh bananas placed in a dish and typically topped with whipped cream or meringue. It's Mikayla's favorite dessert.</span></div>
+        </li>
+        <li>
+          <img id="middle-photo" src="../images/creme_brulee.jpeg" alt="creme brulee">
+          <div id="middle-text" class="overlay"><span>Crème brûlée is a rich custard topped with caramelized sugar. The caramelized sugar tends to warm the top while leaving the center cool. It can be enjoyed with fresh fruit such as blueberries and strawberries. It's JAM's favorite dessert.</span></div>
+        </li>
+        <li>
+          <img src="../images/tiramisu.jpeg" alt="tiramisu">
+          <div class="overlay"><span>Tiramisu is an Italian dessert made of ladyfingers dipped in coffee, layered with a whipped mixture of eggs, sugar, and mascarpone cheese, and flavoured with cocoa. It's Jessie's favorite dessert. </span></div>
+        </li>
+        <li>
+          <img src="../images/flan.jpeg" alt="flan">
+          <div id="last-text" class="overlay"><span>Flan is a custard dessert with a layer of caramel sauce. It's traditionally eaten by itself, but other variations include being served with black coffee poured on top or mixed with other flavors such as pandan juice or coconut milk. It's Anh's favorite dessert again.</span></div>
+        </li>
+      </ul>
+    </div>
+
+  </main>
+
+  <footer>
+    <section class="footer_text">
+      <h4>&copy; 2023 Created by JAM. Made with so much love for desserts. All rights reserved.</h4>
+    </section>
+  </footer>
 </body>
 </html>
